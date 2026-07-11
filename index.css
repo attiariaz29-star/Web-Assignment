@@ -240,9 +240,9 @@ html, body{
     justify-content: center;
 }
 @keyframes abc{
-    0%{background-image: url(img\ 1.png);background-position: center;}
-    50%{background-image: url(img\ 2.png); background-position:center;}
-    100%{background-image: url(img\ 3.png);background-position: center;background-repeat: no-repeat;}
+    0%{background-image: url("img1.png");background-position: center;}
+    50%{background-image: url("img2.png"); background-position:center;}
+    100%{background-image: url("img3.png");background-position: center;background-repeat: no-repeat;}
 }
 
 /* Hero Particles */
